@@ -37,7 +37,7 @@
 	margin-right: auto;
 }
 
-.projectButtons button {
+.projectButtons > a > button {
 	text-decoration: none;
 	color: #22262a;
 	font-size: 1rem;
