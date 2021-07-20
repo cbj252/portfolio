@@ -1,0 +1,87 @@
+.contactSidebar {
+	display: inline-block;
+	position: fixed;
+  z-index: 3;
+}
+
+.contactSidebar > ul {
+	width: fit-content;
+	margin: 0;
+}
+
+.intro {
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.intro > span {
+	position: relative;
+	color: #94a4b4;
+  line-height: 1;
+  font-size: 3rem;
+  cursor: default;
+}
+
+.intro > span:hover {
+	color: #5b6570;
+}
+
+#contactLinkLinkedin {
+	background-color: #0077b5;
+}
+
+#contactLinkGithub {
+  background-color: #333;
+}
+
+#contactLinkEmail {
+  background-color: #6fc2b0;
+}
+
+#contactLinkResume {
+  background-color: #565f69;
+}
+
+.contactLink {
+	position: relative;
+	right: 5.8rem;
+	padding: 18px 12px;
+  color: #eee;
+	height: 1rem;
+}
+
+.contactLink:active, .contactLink:focus, .contactLink:hover {
+	transform: translateX(5.8rem);
+}
+
+.contactLabel {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 0rem;
+	width: 5.8rem;
+	letter-spacing: 1px;
+	text-align: left;
+	text-transform: uppercase;
+  z-index: 3;
+}
+
+.linktoProjects {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.linktoProjects > button {
+	display: block;
+	height: 4.5rem;
+	line-height: 1;
+	font-size: 2rem;
+	border: 2px solid #fff;
+	background-color: #22262a;
+	color: #fff;
+}
+
+#background {
+	background-color: #22262a;
+}

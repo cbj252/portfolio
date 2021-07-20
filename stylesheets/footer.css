@@ -1,0 +1,11 @@
+footer {
+  width: 100%;
+  padding: 2rem 0;
+  background: #171a1d;
+  color: #94a4b4;
+  font-size: 1rem;
+  text-align: center;
+  font-family: Inconsolata,sans-serif;
+  border-top: 1px solid #343a41;
+  user-select: text;
+}

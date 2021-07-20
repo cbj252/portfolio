@@ -1,0 +1,6 @@
+#contactForm > textarea {
+  width: 80%;
+  max-width: 900px;
+  height: 30%;
+  max-height: 300px;
+}

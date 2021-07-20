@@ -1,0 +1,87 @@
+h1 {
+	font-size: 5.5rem;
+	letter-spacing: 4px;
+}
+
+h2 {
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+h5 {
+	font-size: 3rem;
+  	letter-spacing: 1px;
+  	font-weight: lighter;
+	color: rgb(255, 255, 255);
+}
+
+h6 {
+	font-size: 1.6rem;
+  	color: #94a4b4;
+  	letter-spacing: 1px;
+}
+
+.icon {
+	height: 1.5em;
+	width: 1.5em;
+	vertical-align: -0.5em;
+}
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+}
+
+.centerFlex {
+	justify-content: center;
+	align-items: center;
+}
+
+.flexColumn {
+	display: flex;
+	flex-direction: column;
+}
+
+.startFlex {
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.flexShrink {
+	flex-shrink: 1;
+}
+
+.smallGrayText {
+	color: #94a4b4;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 0.6rem;
+	text-transform: uppercase;
+}
+
+.inlineFlex {
+	display: inline-flex;
+}
+
+.inlineBlock {
+	display: inline-block;
+}
+
+.topMargin {
+	margin-top: 1rem;
+}
+
+.centerBox {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.largeBar {
+	width: 100%;
+	height: 20vh;
+}
+
+.whiteText {
+	color: #fff;
+}
