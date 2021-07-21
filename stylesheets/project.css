@@ -125,21 +125,21 @@
 }
 
 @media only screen and (max-width: 992px) {
-	.projectDescription {
-		top: 50%;
-		height: 600px;
-	}
+   .projectDescription {
+    top: 50%;
+    height: 50vh;
+   }
 
-	.projectDetails {
-    height: 340px;
-		width: calc(100% - 10px);
-    padding: 5px;
-	}
+   .projectDetails {
+     height: calc(50vh - 250px - 10px);
+     width: calc(100% - 10px);
+     padding: 5px;
+   }
 
-	.projectLeft {
+   .projectLeft {
     height: 250px;
-		width: 100%;
-	}
+    width: 100%;
+   }
 
   .projectGrid {
     grid-template-rows: 1fr 1fr;
