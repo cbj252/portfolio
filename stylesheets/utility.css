@@ -10,20 +10,20 @@ h2 {
 
 h5 {
 	font-size: 3rem;
-  	letter-spacing: 1px;
-  	font-weight: lighter;
+  letter-spacing: 1px;
+  font-weight: lighter;
 	color: rgb(255, 255, 255);
 }
 
 h6 {
 	font-size: 1.6rem;
-  	color: #94a4b4;
-  	letter-spacing: 1px;
+  color: #94a4b4;
+  letter-spacing: 1px;
 }
 
 .icon {
 	height: 1.5em;
-	width: 1.5em;
+	width: 2em;
 	vertical-align: -0.5em;
 }
 
@@ -59,12 +59,28 @@ h6 {
 	text-transform: uppercase;
 }
 
+.staatlichesText {
+  font-family: 'Staatliches', sans-serif;
+}
+
+.inconText {
+  font-family: 'Inconsolata', sans-serif;
+}
+
 .inlineFlex {
 	display: inline-flex;
 }
 
 .inlineBlock {
 	display: inline-block;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.smallTopMargin {
+  margin-top: 0.5rem;
 }
 
 .topMargin {
@@ -79,7 +95,12 @@ h6 {
 
 .largeBar {
 	width: 100%;
-	height: 20vh;
+	height: 200px;
+}
+
+.mediumBar {
+  width: 100%;
+	height: 100px;
 }
 
 .whiteText {

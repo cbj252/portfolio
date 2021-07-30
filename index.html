@@ -1,6 +1,10 @@
 <html>
   <head>
     <title>Bing Jian's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./stylesheets/reset.css" />
     <link rel="stylesheet" href="./stylesheets/utility.css" />
     <link rel="stylesheet" href="./stylesheets/top.css" />
@@ -26,7 +30,7 @@
             class="flexRow contactLink centerFlex"
             id="contactLinkLinkedin"
           >
-            <span class="contactLabel">Linkedin</span>
+            <span class="contactLabel staatlichesText">Linkedin</span>
             <svg viewBox="0 0 448 512" class="icon">
               <path
                 fill="currentColor"
@@ -42,7 +46,7 @@
             class="flexRow contactLink centerFlex"
             id="contactLinkGithub"
           >
-            <span class="contactLabel">Github</span>
+            <span class="contactLabel staatlichesText">Github</span>
             <svg viewBox="0 0 496 512" class="icon">
               <path
                 fill="currentColor"
@@ -57,7 +61,7 @@
             class="flexRow contactLink centerFlex"
             id="contactLinkEmail"
           >
-            <span class="contactLabel">Email</span>
+            <span class="contactLabel staatlichesText">Email</span>
             <svg viewBox="0 0 512 512" class="icon">
               <path
                 fill="currentColor"
@@ -72,7 +76,7 @@
             target="_blank"
             class="flexRow contactLink centerFlex"
             id="contactLinkResume"
-            ><span class="contactLabel">Resume</span
+            ><span class="contactLabel staatlichesText">Resume</span
             ><svg viewBox="0 0 384 512" class="icon">
               <path
                 fill="currentColor"
@@ -84,7 +88,7 @@
       </ul>
     </div>
     <div class="intro">
-      <h1>Bing Jian</h1>
+      <h1>Hi, I'm Bing Jian</h1>
       <br />
       <span> I'm </span>
       <span> a </span>
@@ -94,15 +98,9 @@
       <span> Developer </span>
     </div>
     <div class="largeBar"></div>
-    <div class="linktoProjects flexRow inlineFlex centerFlex">
-        <button> 
-          <a href="#portfolio"> View Projects </a>
-        </button>
-    </div>
-    <div class="largeBar"></div>
     <div class="centerBox">
-      <h2 id="portfolio"> Portfolio </h2>
-      <div class="largeBar"></div>
+      <h2 id="portfolio" class="staatlichesText"> Portfolio </h2>
+      <div class="mediumBar"></div>
       <div class="projectGrid">
         <div class="grid11">
           <img
@@ -126,8 +124,8 @@
               />
             </div>
             <div class="projectDetails flexColumn">
-              <h6>Project</h6>
-              <h5>Adventure Cord</h5>
+              <h6 class="staatlichesText">Project</h6>
+              <h5 class="staatlichesText">Odinbook</h5>
               <ul>
                 <li class="smallGrayText">Html &amp; Css</li>
                 <li class="smallGrayText">Javascript</li>
@@ -138,15 +136,14 @@
               </ul>
               <p class="smallGrayText">About</p>
               <div class="projectSummary flexShrink topMargin">
-                This is the final project from The Odin Project, where I learnt web programming.
-                It is a recreation of Facebook, allowing for messaging between users. 
-                <br />
-                Like Facebook, users can post messages, upload images to be used in their messages, and see other users' messages. They can also add other users as Friends and block other users, so further friend requests will be ignored. The messages are stored in a MongoDB database, so messages will be kept through server refreshes. The site is also responsive and will change it's layout to fit smaller screens like mobile phones or tablets.
+                <p class="inconText"> This is the final project from The Odin Project, where I learnt web programming.
+                It is a recreation of Facebook, allowing for messaging between users. </p>
+                <p class="topMargin inconText"> Like Facebook, users can post messages, upload images to be used in their messages, and see other users' messages. They can also add other users as Friends and block other users, so further friend requests will be ignored. The messages are stored in a MongoDB database, so messages will be kept through server refreshes. The site is also responsive and will change it's layout to fit smaller screens like mobile phones or tablets. </p>
               </div>
               <div class="flexRow topMargin">
                 <div class="projectButtons">
                   <a href="https://odinbook-bingjian.herokuapp.com/">
-                    <button>
+                    <button class="staatlichesText">
                       <svg class="icon" viewBox="0 0 576 512">
                         <path
                           fill="currentColor"
@@ -159,7 +156,7 @@
                 </div>
                 <div class="projectButtons">
                   <a href="https://github.com/cbj252/odinbook">
-                    <button>
+                    <button class="staatlichesText">
                       <svg class="icon" viewBox="0 0 576 512">
                         <path
                           fill="currentColor"
@@ -174,7 +171,7 @@
             </div>
           </div>
           <div class="projectButtons flexRow centerFlex viewProjectButton" style="visibility: hidden">
-            <button class="flexRow centerFlex">
+            <button class="flexRow centerFlex staatlichesText">
               <svg viewBox="0 0 576 512">
                 <path
                   fill="currentColor"
@@ -207,24 +204,22 @@
               />
             </div>
             <div class="projectDetails flexColumn">
-              <h6>Project</h6>
-              <h5>2D Mage Game</h5>
+              <h6 class="staatlichesText">Project</h6>
+              <h5 class="staatlichesText">2D Mage Game</h5>
               <ul>
                 <li class="smallGrayText">Unity</li>
                 <li class="smallGrayText">C#</li>
-                <li class="smallGrayText">Git</li>
+                <li class="smallGrayText">UI</li>
               </ul>
               <p class="smallGrayText">About</p>
               <div class="projectSummary flexShrink topMargin">
-                This is a simple game, involving two players battling each other (using the same keyboard). The mages cast spells to attempt to lower the other player's health to 0.
-                <br />
-                Although I don't want to specialise in creating games, I wanted to try making a simple one, to diversify my skillset and because I've always wanted to make my own game. In terms of diversifying my skillset, it introduced me to C#, a language I had previously never used, and learning both Unity and C# simultaneously proved to be a fruitful, if frustrating, endeavour.
-                <br />
+                <p class="inconText"> This is a simple game, involving two players battling each other (using the same keyboard). The mages cast spells to attempt to lower the other player's health to 0. </p>
+                <p class="topMargin inconText"> Although I don't want to specialise in creating games, I wanted to try making a simple one, to diversify my skillset and because I've always wanted to make my own game. In terms of diversifying my skillset, it introduced me to C#, a language I had previously never used, and learning both Unity and C# simultaneously proved to be a fruitful, if frustrating, endeavour. </p>
               </div>
               <div class="flexRow topMargin">
                 <div class="projectButtons">
                   <a href="https://cbj252.github.io/magegame/">
-                    <button>
+                    <button class="staatlichesText">
                       <svg class="icon" viewBox="0 0 576 512">
                         <path
                           fill="currentColor"
@@ -237,7 +232,7 @@
                 </div>
                 <div class="projectButtons">
                   <a href="https://github.com/cbj252/unity_mage_game">
-                    <button>
+                    <button class="staatlichesText">
                       <svg class="icon" viewBox="0 0 576 512">
                         <path
                           fill="currentColor"
@@ -252,7 +247,7 @@
             </div>
           </div>
           <div class="projectButtons flexRow centerFlex viewProjectButton" style="visibility: hidden">
-            <button class="flexRow">
+            <button class="flexRow staatlichesText">
               <svg viewBox="0 0 576 512">
                 <path
                   fill="currentColor"
@@ -265,28 +260,28 @@
         </div>
       </div>
     </div>
-    <div class="largeBar"></div>
+    <div class="mediumBar"></div>
     <div class="centerBox">
-      <h2 id="contactMe">Contact Me</h2>
-      <form id="contactForm" action="https://usebasin.com/f/b1d3d835c629" method="POST">
-        <label for="email" class="whiteText ">Name:</label><br>
-        <input type="text" id="name" name="name" required /><br><br>
+      <h2 id="contactMe" class="staatlichesText">Contact Me</h2>
+      <form class="topMargin" id="contactForm" action="https://usebasin.com/f/b1d3d835c629" method="POST">
+        <label for="email" class="whiteText">Name:</label><br>
+        <input class="smallTopMargin" type="text" id="name" name="name" required /><br><br>
         <label for="email" class="whiteText">Email:</label><br>
-        <input type="text" id="email" name="email" required /><br><br>
-        <label for="message" class="whiteText ">Message:</label><br>
-        <textarea type="text" id="message" name="message" required /></textarea><br><br>
-        <button type="submit">Submit</button>
+        <input class="smallTopMargin" type="text" id="email" name="email" required /><br><br>
+        <label for="message" class="whiteText">Message:</label><br>
+        <textarea class="smallTopMargin" type="text" id="message" name="message" required /></textarea><br><br>
+        <button class="contactButton staatlichesText" type="submit">Submit</button>
       </form>
     </div>
     <div class="largeBar"></div>
     <footer class="flexRow centerFlex" style="justify-content: space-around">
-      <div>
+      <div class="inconText">
         Email:
-        <div class="whiteText inlineBlock">cbj252work@gmail.com</div>
+        <div class="whiteText inlineBlock inconText">cbj252work@gmail.com</div>
       </div>
-      <div>
+      <div class="inconText">
         Tel:
-        <div class="whiteText inlineBlock">TBW</div>
+        <div class="whiteText inlineBlock inconText">(+65) 97225130</div>
       </div>
     </footer>
   </body>

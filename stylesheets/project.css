@@ -108,7 +108,6 @@
 }
 
 .projectSummary {
-	font-family: Inconsolata,sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #94a4b4;
@@ -125,21 +124,21 @@
 }
 
 @media only screen and (max-width: 992px) {
-   .projectDescription {
-    top: 50%;
-    height: 50vh;
-   }
+  .projectDescription {
+    height: 90vh;
+  }
 
-   .projectDetails {
-     height: calc(50vh - 250px - 10px);
-     width: calc(100% - 10px);
-     padding: 5px;
-   }
+  .projectDetails {
+    min-height: 300px;
+    height: calc(100% - 200px - 10px);
+    width: calc(100% - 10px);
+    padding: 5px;
+  }
 
-   .projectLeft {
-    height: 250px;
+  .projectLeft {
+    height: 200px;
     width: 100%;
-   }
+  }
 
   .projectGrid {
     grid-template-rows: 1fr 1fr;

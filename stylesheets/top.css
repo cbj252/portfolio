@@ -45,21 +45,21 @@
 
 .contactLink {
 	position: relative;
-	right: 5.8rem;
+	right: 4.5rem;
 	padding: 18px 12px;
   color: #eee;
 	height: 1rem;
 }
 
 .contactLink:active, .contactLink:focus, .contactLink:hover {
-	transform: translateX(5.8rem);
+	transform: translateX(4.5rem);
 }
 
 .contactLabel {
 	display: inline-block;
 	vertical-align: middle;
 	margin-right: 0rem;
-	width: 5.8rem;
+	width: 4.5rem;
 	letter-spacing: 1px;
 	text-align: left;
 	text-transform: uppercase;
