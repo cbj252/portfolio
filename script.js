@@ -28,3 +28,4 @@ const projectBoxes = function(gridName) {
 
 projectBoxes(".grid11");
 projectBoxes(".grid12");
+projectBoxes(".grid21");
