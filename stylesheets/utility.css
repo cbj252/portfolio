@@ -110,3 +110,7 @@ h6 {
 .whiteText {
 	color: #fff;
 }
+
+.clickable {
+  cursor: pointer;
+}
