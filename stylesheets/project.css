@@ -61,8 +61,8 @@
 	top: 50%;
 	left: 50%;
 	margin: auto;
-  background-color: #343a41;
-  box-shadow: 0 0 5px #000;
+    background-color: #343a41;
+    box-shadow: 0 0 5px #000;
 	transform: translate(-50%, -50%);
 	visibility: hidden;
 	z-index: 2;
@@ -114,6 +114,17 @@
 	color: #94a4b4;
 	overflow-y: scroll;
 	max-height: fit-content;
+}
+
+.projectSummary::-webkit-scrollbar {
+    width: 6px;
+    background-color: #171a1d;
+    border-radius: 3px;
+}
+
+.projectSummary::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+    background-color: white;
 }
 
 .smallSymbol {
